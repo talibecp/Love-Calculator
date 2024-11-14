@@ -1,0 +1,61 @@
+Love Calculator
+sample url at : https://dualten.com/online-best-love-calculator/
+
+The Love Calculator is a fun and interactive web-based tool designed to calculate the "love compatibility" between two people. The calculator allows users to input their names and their partner's name to calculate the percentage of love compatibility between them. The result is presented along with a personalized message based on the compatibility score.
+
+
+This Love Calculator is a simple web application that gives users a fun way to check their love compatibility with their partner. The calculation is based on a random algorithm that generates a percentage, which represents the compatibility score between the two names entered. It also provides a personalized love message based on the calculated percentage.
+
+Features
+
+User-Friendly Interface: Simple and clean design for easy interaction.
+
+Name Input: Users can enter their names and their partner’s name.
+
+Random Compatibility Calculation: The compatibility percentage is randomly generated, providing a fun result.
+
+Personalized Love Message: The result includes a message that corresponds to the compatibility percentage.
+
+Responsive Design: The calculator is fully responsive, making it accessible on both desktop and mobile devices.
+
+Navigation Links: Easy access to other related calculators like the Cat Age Calculator and Bird Age Calculator via navigation links at the top right of the page.
+
+Technologies Used
+
+HTML5: Used for structuring the content and creating the form elements.
+
+CSS3: Used for styling the page, including the main design, button styles, and responsiveness.
+
+JavaScript: Used for the functionality of the Love Calculator, including event handling, random percentage generation, and display of results.
+
+Font Awesome: Used for heart icons to enhance the visual design.
+
+How to Use
+
+Input Names: Enter your name and your partner’s name in the respective fields on the Love Calculator form.
+
+Calculate: Click on the "Calculate Love Compatibility" button to generate a random love compatibility percentage.
+
+View Result: The result will show the compatibility percentage and a personalized love message.
+Navigation Links: Use the navigation links in the top right corner to quickly access related calculators such as the Cat Age Calculator and Bird Age Calculator.
+
+Folder Structure
+
+plaintext
+
+Copy code
+
+love-calculator/
+├── index.html         # Main HTML file
+├── styles.css         # CSS file for styling the page
+├── script.js          # JavaScript file for the functionality
+└── README.md          # This README file
+
+index.html: The main file where the structure and content of the page are located.
+styles.css: Contains the CSS rules for styling the page, including colors, layout, typography, and responsiveness.
+
+script.js: Contains the JavaScript code that manages the love calculation functionality.
+
+License
+
+This project is open-source and available under the MIT License.

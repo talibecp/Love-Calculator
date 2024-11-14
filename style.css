@@ -1,0 +1,155 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Links */
+.nav-links {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-links a {
+    font-size: 16px;
+    color: #ff66b2;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e64a9e;
+}
+
+/* Main Heading Section */
+.main-heading {
+    background-color: #ff66b2;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.main-heading h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.main-heading p {
+    font-size: 20px;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Love Calculator Form */
+.calculator-form {
+    background-color: #ffb3d9;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+.calculator-form .input-group {
+    margin-bottom: 20px;
+}
+
+.calculator-form label {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+    color: #444;
+}
+
+.calculator-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.calculator-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.calculator-form button:hover {
+    background-color: #e64a9e;
+}
+
+/* Result Section */
+.result-section {
+    text-align: center;
+    background-color: #fff0f5;
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.result-section #result .percentage {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff66b2;
+}
+
+.result-section #result .love-message {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-heading h1 {
+        font-size: 28px;
+    }
+
+    .main-heading p {
+        font-size: 16px;
+    }
+
+    .calculator-form button {
+        font-size: 16px;
+    }
+
+    .result-section h2 {
+        font-size: 24px;
+    }
+
+    .result-section #result .percentage {
+        font-size: 28px;
+    }
+}
